@@ -1,0 +1,28 @@
+{
+  "name": "oompa-ensure",
+  "version": "1.0.0",
+  "description": "An Oompa middleware to ensure payload keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oakfang/oompa-ensure.git"
+  },
+  "keywords": [
+    "oompa",
+    "safety",
+    "middleware"
+  ],
+  "author": "Alon Niv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oakfang/oompa-ensure/issues"
+  },
+  "homepage": "https://github.com/oakfang/oompa-ensure#readme",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "nyc": "^7.0.0"
+  }
+}
